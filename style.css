@@ -1,0 +1,39 @@
+body {
+  background-color: lightblue; }
+  body header {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 3px 3px 5px cornflowerblue; }
+  body section {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 80vw;
+    transform: translate(-50%, -50%); }
+  body #card {
+    background-color: white;
+    text-align: right;
+    padding: 2em;
+    box-shadow: 3px 3px 5px grey;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 1em; }
+  body #card-content {
+    text-align: left;
+    margin-bottom: 1em; }
+  body .author {
+    text-align: right; }
+  body .social {
+    color: white;
+    float: left; }
+    body .social :hover {
+      background-color: #0071f3; }
+  body .tweet-quote {
+    background-color: #4099FF;
+    cursor: pointer; }
+
+.getQuote {
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

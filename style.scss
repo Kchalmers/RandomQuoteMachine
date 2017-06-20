@@ -1,0 +1,48 @@
+@import "variables";
+
+body {
+  background-color: $body-color;
+  header {
+    color: $header-color;
+    text-align: $header-align;
+    font-size: $header-font;
+    text-shadow: 3px 3px 5px cornflowerblue;
+  }
+  section {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: $section-width;
+    transform: translate(-50%, -50%);
+  }
+  #card {
+    background-color: $card-color;
+    text-align: $card-align;
+    padding: 2em;
+    box-shadow: 3px 3px 5px grey;
+    margin-left: $card-margin;
+    margin-right: $card-margin;
+    border-radius: 1em;
+  }
+  #card-content {
+    text-align: $content-align;
+    margin-bottom: $card-content-margin;
+  }
+  .author {
+    text-align: $author-align;
+  }
+  .social {
+    color: $tweet-color;
+    float: left;
+    :hover {
+      background-color: darken($tweetBtnColor, 15%);
+    }
+  }
+  .tweet-quote {
+    background-color: $tweetBtnColor;
+    cursor: pointer;
+  }
+}
+.getQuote {
+  cursor: pointer;
+}
